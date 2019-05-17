@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: b9bc1d0752f008d46a483046a19b26a8
+guid: db74ec7336ece2e45a1e043a318aeae3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8935091816293491894
-    second: Inky_0
+      213: -1915776564401465818
+    second: Fish_0
   - first:
-      213: 3371502010489621682
-    second: Inky_1
+      213: -8217542319786499577
+    second: Fish_1
   - first:
-      213: 7193395829099447365
-    second: Inky_2
-  - first:
-      213: -6976027420046271157
-    second: Inky_3
-  - first:
-      213: -6501421888951300269
-    second: Inky_4
+      213: 9156854346723684101
+    second: Fish_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -99,106 +93,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Inky_0
+      name: Fish_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 352
-        width: 207
-        height: 158
-      alignment: 9
-      pivot: {x: 0.06761337, y: 0.92377967}
+        x: 24
+        y: 590
+        width: 542
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 401aa0a0c7471134a8284895fedc3663
-      internalID: -8935091816293491894
+      spriteID: b1d0893661a595f4fbeebf9c9b186c24
+      internalID: -1915776564401465818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inky_1
+      name: Fish_1
       rect:
         serializedVersion: 2
-        x: 248
-        y: 407
-        width: 188
-        height: 195
-      alignment: 9
-      pivot: {x: 0.07479404, y: 0.9239571}
+        x: 788
+        y: 684
+        width: 342
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e656cafd0ddd8488f461f37b36f504
-      internalID: 3371502010489621682
+      spriteID: 3e9703f03ac59d141ac4c55a5de3d241
+      internalID: -8217542319786499577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inky_2
+      name: Fish_2
       rect:
         serializedVersion: 2
-        x: 615
-        y: 175
-        width: 202
-        height: 404
-      alignment: 9
-      pivot: {x: 0.46617654, y: 0.029851818}
+        x: 695
+        y: 151
+        width: 520
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bfcf559973bc443b85fb358e4d294b
-      internalID: 7193395829099447365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inky_3
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 1
-        width: 105
-        height: 242
-      alignment: 9
-      pivot: {x: 0.8513788, y: 0.91502386}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e028b40167f20045a5221669af93640
-      internalID: -6976027420046271157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inky_4
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 64
-        width: 155
-        height: 218
-      alignment: 9
-      pivot: {x: 0.9011258, y: 0.90116644}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 231be1070d708484f8040b8af23e1ea4
-      internalID: -6501421888951300269
+      spriteID: 81b5af91dd30ff344853bdc2622000fb
+      internalID: 9156854346723684101
       vertices: []
       indices: 
       edges: []
@@ -206,7 +158,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b70df1d9b6712f5438c8da2bd031260d
+    spriteID: a9de5586263d3724282e57cd63db1a52
     internalID: 0
     vertices: []
     indices: 
