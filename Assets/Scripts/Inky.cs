@@ -25,7 +25,7 @@ public class Inky : MonoBehaviour {
         var position = trans.position;
         trans.up = new Vector3(mouse.x - position.x, mouse.y - position.y);
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
             this.animator.SetTrigger(AnimatorSwim);
     }
 
