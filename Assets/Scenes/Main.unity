@@ -5609,6 +5609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2000
+  ink: {fileID: 7902394938576978902, guid: 76d828ed5c561504b8db765be4c30019, type: 3}
 --- !u!1 &2113599577
 GameObject:
   m_ObjectHideFlags: 0
