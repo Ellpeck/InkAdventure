@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 7433708933593498554}
   - component: {fileID: 3311398478382305219}
   - component: {fileID: 452219240943829449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pufferfish
   m_TagString: Untagged
   m_Icon: {fileID: 0}

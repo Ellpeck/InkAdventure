@@ -1,11 +1,14 @@
 ﻿using System;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class Inky : MonoBehaviour {
 
     private static readonly int AnimatorSwim = Animator.StringToHash("Swim");
+    private static readonly int AnimatorShoot = Animator.StringToHash("Shoot");
 
     public float moveSpeed;
+    public ParticleSystem ink;
 
     private Animator animator;
     private Rigidbody2D body;
@@ -27,10 +30,19 @@ public class Inky : MonoBehaviour {
 
         if (Input.GetMouseButtonDown(0))
             this.animator.SetTrigger(AnimatorSwim);
+        else if (Input.GetMouseButtonDown(1))
+            this.animator.SetTrigger(AnimatorShoot);
     }
 
+    [UsedImplicitly]
     public void Swim() {
         this.body.AddRelativeForce(new Vector2(0, this.moveSpeed));
+    }
+
+    [UsedImplicitly]
+    public void Shoot() {
+        var trans = this.transform;
+        Instantiate(this.ink, trans.position, trans.rotation);
     }
 
 }

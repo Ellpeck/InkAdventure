@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using JetBrains.Annotations;
 using UnityEngine;
 
 public class Pufferfish : MonoBehaviour {
@@ -43,6 +41,7 @@ public class Pufferfish : MonoBehaviour {
         }
     }
 
+    [UsedImplicitly]
     public void ChangeSprite() {
         this.renderer.sprite = this.isPuffed ? this.puffedSprite : this.unpuffedSprite;
     }
